@@ -1,7 +1,6 @@
-// area = pi (r **2)
+// area = Math.pi (r **2)
 'use strict'
-let z = Math.PI
-let radius = Math.pow(4, 2)
-let area = z * radius
+let radius = 4;
+let areaOfCircle = Math.PI * Math.pow(radius, 2);
 
-console.log('The are of a circle with radius ' + radius + ' is ' + area)
+console.log('The area of a circle with radius ' + radius + ' is ' + areaOfCircle.toFixed(2));

@@ -2,6 +2,6 @@
 
 let assets = 10000;
 let debt = 200;
-let netWorth = assets - debt;
+let netWorth = Math.abs(assets - debt);
 
-console.log('Your net worth is ' + netWorth)
+console.log('Your net worth is ' + netWorth);
